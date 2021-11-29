@@ -1,25 +1,25 @@
-public class User {
+public class Army {
     public String userName;
-    private String userPassword;
+    public String userPassword;
     public int age;
     public String email;
     public String hobby;
 
 
-    public User(String userName, String userPassword, int age, String email, String hobby) {
-        // wat doet "this." met de code
+    public Army(String userName, String userPassword, int age, String email, String hobby) {
+        // this. verwijst naar huidige object in dit geval "Army"
         this.userName = userName;
-        this. userPassword = userPassword;
+        this.userPassword = userPassword;
         this.age = age;
         this.email = email;
         this.hobby = hobby;
     }
 
     public String getUserName() {
-        return getUserName;
+        return userName;
     }
 
-    public void setUserName(String Username) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
